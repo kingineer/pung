@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<Scene onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" stylesheets="@../style/pong.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kingineer.github.controller.Gameplay">
+<Scene onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" stylesheets="@../style/styles.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kingineer.github.controller.Gameplay">
    <GridPane hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" styleClass="application" vgap="5.0">
       <columnConstraints>
          <ColumnConstraints maxWidth="-Infinity" minWidth="-Infinity" />

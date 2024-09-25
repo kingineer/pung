@@ -1,11 +1,5 @@
-@font-face {
-    font-family: Pixelated;
-    src: url("../font/Pixelated.ttf");
-}
-
 /* General Application Styles */
 .root {
-    -fx-font-family: 'Pixelated';
     -fx-text-fill: white;
 }
 
@@ -19,13 +13,11 @@
     -fx-font-size: 14px;
     -fx-font-weight: bold;
     -fx-text-fill: white;
-    -fx-font-family: 'Pixelated';
 }
 
 .menu-bar__banner {
     -fx-font-size: 24px;
     -fx-text-fill: white;
-    -fx-font-family: 'Pixelated';
 }
 
 /* Menu Bar Button Styling */
@@ -34,13 +26,11 @@
     -fx-border-color: white;
     -fx-border-width: 2px;
     -fx-text-fill: white;
-    -fx-font-size: 16px;
+    -fx-font-size: 14px;
     -fx-font-weight: bold;
-    -fx-padding: 8px 16px;
+    -fx-padding: 4px 8px;
     -fx-cursor: hand;
-    -fx-transition: 0.3s ease;
     /* Smooth transition */
-    -fx-font-family: 'Pixelated';
 }
 
 /* Button Hover Effect */
@@ -68,5 +58,4 @@
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-padding-bottom: 10px;
-    -fx-font-family: 'Pixelated';
 }

@@ -12,12 +12,12 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        // Load the FXML file
         URL path = App.class.getResource("view/gameplay.fxml");
         Scene root = FXMLLoader.load(path);
         stage.setScene(root);
         stage.setTitle("Pong");
         stage.setMaximized(true);
+        stage.setResizable(false);
         stage.show();
     }
 
