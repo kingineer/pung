@@ -5,8 +5,12 @@ module com.kingineer.github {
 
     requires org.junit.jupiter.api;
     requires org.junit.jupiter.engine;
-    
+
     opens com.kingineer.github to javafx.fxml;
 
     exports com.kingineer.github;
+
+    opens com.kingineer.github.controller to javafx.fxml;
+
+    exports com.kingineer.github.controller;
 }
